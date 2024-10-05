@@ -1,0 +1,56 @@
+/* src/components/HeroSection.css */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 5%;
+    background-color: #0d0d2b; /* Dark space-like background */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .left {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #a0a0f0;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Optional: Video styling if you choose to use video */
+  .hero-video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
