@@ -1,7 +1,6 @@
-// src/App.jsx
 import React from 'react';
 import HeroSection from './components/HeroSection';
-import './App.css'; // Include global styles
+import './App.css'; 
 
 function App() {
   return (
